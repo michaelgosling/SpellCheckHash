@@ -33,6 +33,7 @@ public:
 	void Initialize(const int size);
 	void Add(std::string str);
 	bool Match(std::string str);
+	void PrintTable();
 };
 
 #endif /* MyHashTable_hpp */

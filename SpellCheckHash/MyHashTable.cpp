@@ -75,3 +75,21 @@ bool MyHashTable::Match(std::string str){
 	// assume false if we didn't match
 	return false;
 }
+
+/**
+ * Print out the hash table
+ */
+void MyHashTable::PrintTable() {
+	for (auto i = 0; i < SIZE; i++) {
+		Node *curr = &values[i];
+		bool breakLine = false;
+		do {
+			if (curr->data != "") {
+				breakLine = true;
+				cout << " [" << curr->data << "] ";
+			}
+			curr = curr->next;
+		} while (curr != nullptr);
+		if (breakLine) cout << endl;
+	}
+}

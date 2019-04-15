@@ -68,3 +68,10 @@ void SpellChecker::SpellCheckFile(string filePath) {
 		cout << e.what() << endl;
 	}
 }
+
+/**
+ * Print out the SpellChecker's Hash Table
+ */
+void SpellChecker::PrintHashTable() {
+	hashDict->PrintTable();
+}

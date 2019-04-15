@@ -20,6 +20,7 @@ public:
 	SpellChecker();
 	void LoadDictionaryFile(std::string filePath);
 	void SpellCheckFile(std::string filePath);
+	void PrintHashTable();
 };
 
 #endif /* SpellChecker_hpp */
