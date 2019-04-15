@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C486F602225E416A005402FB /* SpellChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C486F600225E416A005402FB /* SpellChecker.cpp */; };
+		C486F605225E41A2005402FB /* MyHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C486F603225E41A2005402FB /* MyHashTable.cpp */; };
 		C49AE01A225E3FDD00252378 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49AE019225E3FDD00252378 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C43B335A225F7341007AD763 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		C43B335B225F7342007AD763 /* mispelled.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mispelled.txt; sourceTree = "<group>"; };
+		C486F600225E416A005402FB /* SpellChecker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpellChecker.cpp; sourceTree = "<group>"; };
+		C486F601225E416A005402FB /* SpellChecker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpellChecker.hpp; sourceTree = "<group>"; };
+		C486F603225E41A2005402FB /* MyHashTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyHashTable.cpp; sourceTree = "<group>"; };
+		C486F604225E41A2005402FB /* MyHashTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyHashTable.hpp; sourceTree = "<group>"; };
 		C49AE016225E3FDD00252378 /* SpellCheckHash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpellCheckHash; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49AE019225E3FDD00252378 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				C49AE019225E3FDD00252378 /* main.cpp */,
+				C486F600225E416A005402FB /* SpellChecker.cpp */,
+				C486F601225E416A005402FB /* SpellChecker.hpp */,
+				C486F603225E41A2005402FB /* MyHashTable.cpp */,
+				C486F604225E41A2005402FB /* MyHashTable.hpp */,
+				C43B335A225F7341007AD763 /* dictionary.txt */,
+				C43B335B225F7342007AD763 /* mispelled.txt */,
 			);
 			path = SpellCheckHash;
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C486F602225E416A005402FB /* SpellChecker.cpp in Sources */,
+				C486F605225E41A2005402FB /* MyHashTable.cpp in Sources */,
 				C49AE01A225E3FDD00252378 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

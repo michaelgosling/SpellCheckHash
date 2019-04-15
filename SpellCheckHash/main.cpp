@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "SpellChecker.hpp"
 
 int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
+	SpellChecker checker;
+	checker.LoadDictionaryFile("dictionary.txt");
+//	checker.PrintHashTable();
+	checker.SpellCheckFile("mispelled.txt");
 	return 0;
 }
