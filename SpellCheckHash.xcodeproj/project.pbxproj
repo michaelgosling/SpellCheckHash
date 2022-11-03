@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1569C029140DAE002F25D1 /* dictionary.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C43B335A225F7341007AD763 /* dictionary.txt */; };
+		4C1569C129140DAE002F25D1 /* mispelled.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C43B335B225F7342007AD763 /* mispelled.txt */; };
 		C486F602225E416A005402FB /* SpellChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C486F600225E416A005402FB /* SpellChecker.cpp */; };
 		C486F605225E41A2005402FB /* MyHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C486F603225E41A2005402FB /* MyHashTable.cpp */; };
 		C49AE01A225E3FDD00252378 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49AE019225E3FDD00252378 /* main.cpp */; };
@@ -15,12 +17,14 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		C49AE014225E3FDD00252378 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				4C1569C029140DAE002F25D1 /* dictionary.txt in CopyFiles */,
+				4C1569C129140DAE002F25D1 /* mispelled.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
